@@ -3,7 +3,7 @@ const aplicacion = document.querySelector('#contenido')
 actualizar()
 
 function actualizar(){
-     const url = 'https://api-sismologia-chile.herokuapp.com'
+     const url = 'https://api-sismologia-chile.herokuapp.com' /* URL desactualizada */
      contenido.innerHTML = ''
      fetch(url)
      .then(respuesta => respuesta.json())
